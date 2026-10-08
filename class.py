@@ -21,3 +21,9 @@ input_lebar = int(input("Masukkan lebar (cm): "))
 while input_lebar == 0:
     print("Lebar tidak boleh 0!")
     input_lebar = int(input("Masukkan lebar lagi (cm): "))
+
+pp = PersegiPanjang(input_panjang, input_lebar)
+
+print(pp)
+print("keliling:", pp.hitung_keliling())
+print("Luas:", pp.hitung_luas())
