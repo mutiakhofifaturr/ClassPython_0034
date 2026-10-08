@@ -16,3 +16,5 @@ input_panjang = int(input("Masukkan panjang (cm): "))
 while input_panjang == 0:
     print("Panjang tidak boleh 0!")
     input_panjang = int(input("Masukkan panjang lagi (cm): "))
+
+input_lebar = int(input("Masukkan lebar (cm): "))
